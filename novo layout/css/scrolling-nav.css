@@ -15,23 +15,58 @@ html {
 }
 
 #page-top > nav.navbar.navbar-default.navbar-fixed-top{
-    background-color: transparent;
-    border: transparent;
-    transition: 0.25s linear;
-
+    background-color: rgba(0,0,0,0.5);
+    border: rgba(0,0,0,0.2);
+}
+@media (min-width: 767px){
+    #page-top > nav{
+        padding: 0;
+    }
 }
 #page-top > nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse{
-    background-color: rgba(47,47,47,0.95);
+    background-color: rgba(0,0,0,0.5);
+    border: rgba(0,0,0,0.2);
 }
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav>li>a{
     color: white;
 }
+
+#page-top > nav > div > div.navbar-collapse.navbar-ex1-collapse.collapse > ul > li > a,
+#page-top > nav > div > div.navbar-collapse.navbar-ex1-collapse.collapsing > ul > li > a{
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+#page-top > nav > div > div.navbar-collapse.navbar-ex1-collapse.collapse > ul > li > a:hover,
+#page-top > nav > div > div.navbar-collapse.navbar-ex1-collapse.collapse > ul > li > a:active,
+#page-top > nav > div > div.navbar-collapse.navbar-ex1-collapse.collapse > ul > li > a:focus{
+    background-color: rgba(30,30,30,0.5);
+    color: #e0e0e0;
+    border: rgba(0,0,0,0.2);
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover{
+    background-color: rgba(30,30,30,0.5);
+    color: #e0e0e0;
+    border: rgba(0,0,0,0.2);
+}
+
 #page-top > nav > div > div.navbar-collapse.navbar-ex1-collapse.collapse.in,
 #page-top > nav > div > div.navbar-collapse.navbar-ex1-collapse.collapsing
 {
     border: transparent;
     box-shadow: 0 0 0 0 ;
+}
+
+#page-top > nav > div > div.navbar-header.page-scroll > button{
+    border: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.5);
+    color: #e0e0e0;
+    padding: 9px 14px;
+    font-size: 19px;
 }
 
 @media(min-width:767px) {
@@ -68,7 +103,7 @@ a.btn.btn-warning.btn-lg.page-scroll{
     padding-right: 30px;
     color: #e0e0e0;
     font-size: 25px;
-    margin-top: 60px;
+    margin-top: 70px;
 }
 
 .intro-section {

@@ -39,24 +39,27 @@ html {
 
 }
 
-#page-top > nav > div > div.navbar-collapse.navbar-ex1-collapse.collapse > ul > li > a:hover,
-#page-top > nav > div > div.navbar-collapse.navbar-ex1-collapse.collapse > ul > li > a:active,
-#page-top > nav > div > div.navbar-collapse.navbar-ex1-collapse.collapse > ul > li > a:focus{
+#navbar-menu > li > a{
+    color: #e0e0e0;
+}
+
+#navbar-menu > li > a:hover{
     background-color: rgba(30,30,30,0.5);
     color: #e0e0e0;
     border: rgba(0,0,0,0.2);
 }
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>.active>a:hover{
+
+#navbar-menu > li.active > a:hover {
     background-color: rgba(30,30,30,0.5);
     color: #e0e0e0;
     border: rgba(0,0,0,0.2);
+    border-bottom: #f0ad4e 3px solid;
 }
-#navbar-menu > li.active > a,
-#navbar-menu > li.active > a:active,
-#navbar-menu > li.active > a:focus{
-    border: purple 3px solid;
+
+#navbar-menu > li.active > a
+{
+    border-bottom: #f0ad4e 3px solid;
+    background-color: transparent;
 }
 
 #page-top > nav > div > div.navbar-collapse.navbar-ex1-collapse.collapse.in,

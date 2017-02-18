@@ -53,7 +53,9 @@ html {
     color: #e0e0e0;
     border: rgba(0,0,0,0.2);
 }
-#navbar-menu > li.active > a{
+#navbar-menu > li.active > a,
+#navbar-menu > li.active > a:active,
+#navbar-menu > li.active > a:focus{
     border: purple 3px solid;
 }
 

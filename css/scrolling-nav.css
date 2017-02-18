@@ -53,6 +53,9 @@ html {
     color: #e0e0e0;
     border: rgba(0,0,0,0.2);
 }
+#navbar-menu > li.active > a{
+    border: purple 3px solid;
+}
 
 #page-top > nav > div > div.navbar-collapse.navbar-ex1-collapse.collapse.in,
 #page-top > nav > div > div.navbar-collapse.navbar-ex1-collapse.collapsing

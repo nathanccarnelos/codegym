@@ -29,7 +29,17 @@ html {
 }
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav>li>a{
-    color: white;
+    color: #e0e0e0;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-brand{
+        padding-top: 20px;
+    }
+}
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover{
+    color: #e0e0e0;
 }
 
 #page-top > nav > div > div.navbar-collapse.navbar-ex1-collapse.collapse > ul > li > a,
@@ -106,6 +116,9 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
 
 }
+.section-title{
+    font-size: 65px;
+}
 a.btn.btn-warning.btn-lg.page-scroll{
     padding-left: 30px;
     padding-right: 30px;
@@ -126,17 +139,28 @@ a.btn.btn-warning.btn-lg.page-scroll{
 }
 
 .about-section {
-    height: 100%;
-    padding-top: 150px;
+    padding-top: 100px;
     text-align: center;
-    background: red;
+    background-color: #F05F40;
+}
+#about{
+    padding-bottom: 100px;
+}
+#about > div > div:nth-child(2) > div{
+    padding-top: 50px;
+}
+.fa-bg{
+    color: #f0ad4e;
+}
+.fa-inverse{
+    color: #e0e0e0;
 }
 
 .services-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: green;
+    background-color: #18BC9C;
 }
 
 .contact-section {

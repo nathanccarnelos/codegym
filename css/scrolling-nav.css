@@ -117,7 +117,8 @@ of those sections to manage the look and feel of the site. */
 
 }
 .section-title{
-    font-size: 65px;
+    font-size: 50px;
+    padding-bottom: 50px;
 }
 a.btn.btn-warning.btn-lg.page-scroll{
     padding-left: 30px;
@@ -143,11 +144,9 @@ a.btn.btn-warning.btn-lg.page-scroll{
     text-align: center;
     background-color: #F05F40;
 }
-#about{
+#about,
+#services{
     padding-bottom: 100px;
-}
-#about > div > div:nth-child(2) > div{
-    padding-top: 50px;
 }
 .fa-bg{
     color: #f0ad4e;
@@ -155,10 +154,18 @@ a.btn.btn-warning.btn-lg.page-scroll{
 .fa-inverse{
     color: #e0e0e0;
 }
+.member img{
+    margin: 0 auto;
+    border: 3px solid #e0e0e0;
+    height: 200px;
+}
+.member{
+    padding-bottom: 30px;
+}
 
 .services-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 100px;
     text-align: center;
     background-color: #18BC9C;
 }

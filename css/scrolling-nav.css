@@ -126,11 +126,12 @@ a.btn.btn-warning.btn-lg.page-scroll{
     color: #e0e0e0;
     font-size: 35px;
     margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .intro-section {
-    height: 100%;
-    padding-top: 150px;
+    padding-top: 100px;
+    padding-bottom: 50px;
     text-align: center;
     background: url(../imgs/programmers-at-work.png) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -146,7 +147,7 @@ a.btn.btn-warning.btn-lg.page-scroll{
 }
 #about,
 #services{
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 .fa-bg{
     color: #f0ad4e;
@@ -158,21 +159,36 @@ a.btn.btn-warning.btn-lg.page-scroll{
     margin: 0 auto;
     border: 3px solid #e0e0e0;
     height: 200px;
+    box-shadow: #626262 0 0 9px 2px;
 }
 .member{
     padding-bottom: 30px;
 }
 
+#services > div > div:nth-child(2) > div > div > div > p:nth-child(3) > a > i{
+    font-size: 50px;
+}
+#services > div > div:nth-child(2) > div > div > div > p:nth-child(2){
+    font-family: 'Kanit', sans-serif;
+    color: #e0e0e0;
+    font-size: 20px;
+}
+#services > div > div:nth-child(2) > div > div > div > h3{
+    font-family: 'Kanit', sans-serif;
+    color: #e0e0e0;
+    font-size: 30px;
+}
 .services-section {
-    height: 100%;
     padding-top: 100px;
     text-align: center;
     background-color: #18BC9C;
 }
-
 .contact-section {
-    height: 100%;
-    padding-top: 150px;
+    background: url("../imgs/map-image.png") #101010 no-repeat center center fixed;;
+    padding-top: 100px;
+    padding-bottom: 100px;
     text-align: center;
-    background: pink;
+}
+.img-border-radius{
+    border-radius: 10px;
 }

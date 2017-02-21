@@ -133,7 +133,7 @@ a.btn.btn-warning.btn-lg.page-scroll{
     padding-top: 100px;
     padding-bottom: 50px;
     text-align: center;
-    background: url(../imgs/programmers-at-work.png) no-repeat center center fixed;
+    background: url(../imgs/programmers-at-work-min.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -184,7 +184,7 @@ a.btn.btn-warning.btn-lg.page-scroll{
     background-color: #18BC9C;
 }
 .contact-section {
-    background: url("../imgs/map-image.png") #101010 no-repeat center center fixed;;
+    background: url("../imgs/map-image-min.png") #101010 no-repeat center center fixed;;
     padding-top: 100px;
     padding-bottom: 100px;
     text-align: center;

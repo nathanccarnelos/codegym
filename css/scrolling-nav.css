@@ -191,6 +191,9 @@ a.btn.btn-warning.btn-lg.page-scroll{
     padding-top: 100px;
     text-align: center;
 }
+#contact > div > div.container > div:nth-child(2) > div > p:nth-child(2){
+    padding-top: 10px;
+}
 .text{
     font-family: 'Kanit', sans-serif;
     text-align: center;

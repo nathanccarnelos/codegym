@@ -128,6 +128,12 @@ a.btn.btn-warning.btn-lg.page-scroll{
     margin-top: 70px;
     margin-bottom: 70px;
 }
+.btn-warning:hover{
+    -webkit-box-shadow: 0 0 5px 2px #222222;
+    -moz-box-shadow: 0 0 5px 2px #222222;
+    box-shadow: 0 0 5px 2px #222222;
+    transition: linear 0.05s;
+}
 
 .intro-section {
     padding-top: 100px;
@@ -207,10 +213,17 @@ footer{
     background-color: #191919;
 
 }
-#footer{
+.footer{
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
     color: #e0e0e0;
     font-size: 18px;
+}
+#page-top > footer > div > div > div:nth-child(2){
+    margin-top: 6px;
+}
+
+#footer-img2{
+        margin-bottom: 5px;
 }

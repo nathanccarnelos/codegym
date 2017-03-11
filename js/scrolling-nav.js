@@ -16,3 +16,10 @@ $(function() {
         event.preventDefault();
     });
 });
+
+var size = $(window).height();
+$('#intro').css('min-height', size);
+$('#about').css('min-height', size);
+$('#contact').css('min-height', size);
+$('#services').css('min-height', size);
+

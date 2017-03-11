@@ -7,6 +7,7 @@
 body {
     width: 100%;
     height: 100%;
+    background-color: #101010;
 }
 
 html {
@@ -108,6 +109,7 @@ of those sections to manage the look and feel of the site. */
     color: #e0e0e0;
     font-size: 80px;
     text-align: center;
+    text-shadow: 0px 3px #a7a7a7;
 }
 .subtitle{
     font-family: 'Kanit', sans-serif;
@@ -120,19 +122,23 @@ of those sections to manage the look and feel of the site. */
     font-size: 50px;
     padding-bottom: 50px;
 }
-a.btn.btn-warning.btn-lg.page-scroll{
-    padding-left: 30px;
-    padding-right: 30px;
+.btn-warning{
+    padding: 20px 30px;
     color: #e0e0e0;
     font-size: 35px;
     margin-top: 70px;
     margin-bottom: 70px;
+    text-shadow: 0 -2px #d58512;
+    border: none;
+    border-bottom: 5px solid #d58512 ;
 }
 .btn-warning:hover{
-    -webkit-box-shadow: 0 0 5px 2px #222222;
-    -moz-box-shadow: 0 0 5px 2px #222222;
-    box-shadow: 0 0 5px 2px #222222;
-    transition: linear 0.05s;
+    transition: linear 0.1s;
+}
+.btn-warning:active{
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
 }
 
 .intro-section {
@@ -162,13 +168,13 @@ a.btn.btn-warning.btn-lg.page-scroll{
     color: #f0ad4e;
 }
 .fa-inverse{
-    color: #e0e0e0;
+    text-shadow: 0 -2px #d58512;
 }
 .member img{
     margin: 0 auto;
     border: 3px solid #e0e0e0;
     height: 200px;
-    box-shadow: #626262 0 0 9px 2px;
+    box-shadow: rgba(90, 90, 90, 0.58) 0 0 9px 2px;
 }
 .member{
     padding-bottom: 30px;

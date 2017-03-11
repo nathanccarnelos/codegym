@@ -30,7 +30,7 @@ html {
 }
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav>li>a{
-    color: #e0e0e0;
+    color: #fff;
 }
 
 @media (max-width: 767px) {
@@ -40,7 +40,7 @@ html {
 }
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:hover{
-    color: #e0e0e0;
+    color: #fff;
 }
 
 #page-top > nav > div > div.navbar-collapse.navbar-ex1-collapse.collapse > ul > li > a,
@@ -51,18 +51,18 @@ html {
 }
 
 #navbar-menu > li > a{
-    color: #e0e0e0;
+    color: #fff;
 }
 
 #navbar-menu > li > a:hover{
     background-color: rgba(30,30,30,0.5);
-    color: #e0e0e0;
+    color: #fff;
     border: rgba(0,0,0,0.2);
 }
 
 #navbar-menu > li.active > a:hover {
     background-color: rgba(30,30,30,0.5);
-    color: #e0e0e0;
+    color: #fff;
     border: rgba(0,0,0,0.2);
     border-bottom: #f0ad4e 3px solid;
 }
@@ -83,7 +83,7 @@ html {
 #page-top > nav > div > div.navbar-header.page-scroll > button{
     border: rgba(0,0,0,0.2);
     background-color: rgba(0,0,0,0.5);
-    color: #e0e0e0;
+    color: #fff;
     padding: 9px 14px;
     font-size: 19px;
 }
@@ -106,14 +106,14 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 .title{
     font-family: 'Anton', sans-serif;
-    color: #e0e0e0;
+    color: #fff;
     font-size: 80px;
     text-align: center;
-    text-shadow: 0px 3px #a7a7a7;
+    text-shadow: 0px 3px #c5c5c5;
 }
 .subtitle{
     font-family: 'Kanit', sans-serif;
-    color: #e0e0e0;
+    color: #fff;
     font-size: 25px;
     text-align: center;
 
@@ -124,7 +124,7 @@ of those sections to manage the look and feel of the site. */
 }
 .btn-warning{
     padding: 20px 30px;
-    color: #e0e0e0;
+    color: #fff;
     font-size: 35px;
     margin-top: 70px;
     margin-bottom: 70px;
@@ -172,7 +172,6 @@ of those sections to manage the look and feel of the site. */
 }
 .member img{
     margin: 0 auto;
-    border: 3px solid #e0e0e0;
     height: 200px;
     box-shadow: rgba(90, 90, 90, 0.58) 0 0 9px 2px;
 }
@@ -185,12 +184,12 @@ of those sections to manage the look and feel of the site. */
 }
 #services > div > div:nth-child(2) > div > div > div > p:nth-child(2){
     font-family: 'Kanit', sans-serif;
-    color: #e0e0e0;
+    color: #fff;
     font-size: 20px;
 }
 #services > div > div:nth-child(2) > div > div > div > h3{
     font-family: 'Kanit', sans-serif;
-    color: #e0e0e0;
+    color: #fff;
     font-size: 30px;
 }
 .services-section {
@@ -209,7 +208,7 @@ of those sections to manage the look and feel of the site. */
 .text{
     font-family: 'Kanit', sans-serif;
     text-align: center;
-    color: #e0e0e0;
+    color: #fff;
     font-size: 18px;
 }
 .img-border-radius{
@@ -223,7 +222,7 @@ footer{
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
-    color: #e0e0e0;
+    color: #fff;
     font-size: 18px;
 }
 #page-top > footer > div > div > div:nth-child(2){

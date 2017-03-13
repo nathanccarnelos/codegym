@@ -16,6 +16,14 @@ $(function() {
         event.preventDefault();
     });
 });
+//typewriter
+  document.addEventListener('DOMContentLoaded', function(){
+      Typed.new('.element', {
+        strings: ["First sentence.", "Second sentence."],
+        typeSpeed: 0
+      });
+  });
+
 
 var size = $(window).height();
 $('#intro').css('min-height', size);

@@ -31,35 +31,7 @@
     <!-- end analytics -->
     <!-- type write -->
     <script src="js/typed.js" type="text/javascript"></script>
-    <script>
-    document.addEventListener('DOMContentLoaded', function(){
-
-        Typed.new("#typed", {
-            stringsElement: document.getElementById('typed-strings'),
-            typeSpeed: 40,
-            backDelay: 600,
-            loop: false,
-            contentType: 'html', // or text
-            // defaults to null for infinite loop
-            loopCount: null,
-            callback: function(){ foo(); },
-            resetCallback: function() { newTyped(); }
-        });
-
-        var resetElement = document.querySelector('.reset');
-        if(resetElement) {
-            resetElement.addEventListener('click', function() {
-                document.getElementById('typed')._typed.reset();
-            });
-        }
-
-    });
-
-    function newTyped(){ /* A new typed object */ }
-
-    function foo(){ console.log("Callback"); }
-
-    </script>
+    <script type="text/javascript" src="js/typeconfig.js"></script>
     <!-- end type write -->
 
 </head>

@@ -1,0 +1,333 @@
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+}
+.links{
+    margin-top: 70px;
+    border-radius: 10px;
+    animation: border-flicker 2s linear forwards;
+}
+.link-title{
+    animation: subtitle-flicker 2s linear forwards;
+}
+.fallout{
+    font-family: 'Fallout', serif;
+    letter-spacing: 2px;
+}
+.link-text{
+    font-size:24px;
+    animation: text-flicker 3s linear forwards;
+}
+ul li{
+    list-style-type:none;
+}
+
+.btn-neon{
+    background-color: transparent;
+    border: 3px solid rgb(250, 255, 81);
+    border-radius: 40px;
+    box-shadow: 0 0 15px -1px rgb(250, 255, 81),
+    0 0 12px -1px rgb(250, 255, 81) inset;
+    color: rgb(250, 255, 81);
+    text-shadow: 0 0 15px rgb(250, 255, 81);
+    padding: 10px 40px;
+    font-size: 20px;
+
+}
+.btn-return{
+    padding-top: 35px;
+}
+.btn-neon:active{
+    border: 3px solid rgb(250, 255, 81);
+    box-shadow: 0 0 15px -1px rgb(250, 255, 81),
+    0 0 12px -1px rgb(250, 255, 81) inset;
+
+}
+.btn-neon:hover{
+    animation: btn-flicker 2s linear forwards;
+}
+
+
+button > a{
+    text-decoration: none;
+    color: rgb(250, 255, 81);
+}
+button > a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 62);
+
+}
+@keyframes btn-flicker{
+    2%{
+        color: rgb(255, 255, 62);
+        border: 3px solid rgb(255, 255, 62);
+        box-shadow: 0 0 30px -1px rgb(255, 255, 62),
+        0 0 16px -1px rgb(255, 255, 62) inset;
+    }
+
+    8%{
+        color: rgb(160, 160, 43);
+        border: 3px solid rgb(160, 160, 43);
+        box-shadow: 0 0 30px -1px rgb(160, 160, 43),
+        0 0 16px -1px rgb(160, 160, 43) inset;
+    }
+    14%{
+        color: rgb(255, 255, 62);
+        border: 3px solid rgb(255, 255, 62);
+        box-shadow: 0 0 30px -1px rgb(255, 255, 62),
+        0 0 16px -1px rgb(255, 255, 62) inset;
+    }
+
+    19%{
+        color: rgb(160, 160, 43);
+        border: 3px solid rgb(160, 160, 43);
+        box-shadow: 0 0 30px -1px rgb(160, 160, 43),
+        0 0 16px -1px rgb(160, 160, 43) inset;
+    }
+    26%{
+        color: rgb(255, 255, 62);
+        border: 3px solid rgb(255, 255, 62);
+        box-shadow: 0 0 30px -1px rgb(255, 255, 62),
+        0 0 16px -1px rgb(255, 255, 62) inset;
+    }
+
+    32%{
+        color: rgb(160, 160, 43);
+        border: 3px solid rgb(160, 160, 43);
+        box-shadow: 0 0 30px -1px rgb(160, 160, 43),
+        0 0 16px -1px rgb(160, 160, 43) inset;
+    }
+    40%{
+        color: rgb(255, 255, 62);
+        border: 3px solid rgb(255, 255, 62);
+        box-shadow: 0 0 30px -1px rgb(255, 255, 62),
+        0 0 16px -1px rgb(255, 255, 62) inset;
+    }
+
+    58%{
+        color: rgb(160, 160, 43);
+        border: 3px solid rgb(160, 160, 43);
+        box-shadow: 0 0 30px -1px rgb(160, 160, 43),
+        0 0 16px -1px rgb(160, 160, 43) inset;
+    }
+    60%{
+        color: rgb(255, 255, 62);
+        border: 3px solid rgb(255, 255, 62);
+        box-shadow: 0 0 30px -1px rgb(255, 255, 62),
+        0 0 16px -1px rgb(255, 255, 62) inset;
+    }
+
+    100%{
+        color: rgb(255, 255, 62);
+        border: 3px solid rgb(255, 255, 62);
+        box-shadow: 0 0 30px -1px rgb(255, 255, 62),
+        0 0 16px -1px rgb(255, 255, 62) inset;
+    }
+
+
+
+}
+
+@keyframes subtitle-flicker {
+    2% {
+        color: rgb(230, 0, 120);
+        text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    3% {
+        color: rgba(120, 0, 50, .5);
+        text-shadow: none;
+    }
+    6% {
+        color: rgb(230, 0, 120);
+        text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    9% {
+        color: rgba(120, 0, 50, .5);
+        text-shadow: none;
+    }
+    11% {
+        color: rgb(230, 0, 120);
+        text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    14% {
+        color: rgba(120, 0, 50, .5);
+        text-shadow: none;
+    }
+    18% {
+        color: rgb(230, 0, 120);
+        text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    32% {
+        color: rgb(230, 0, 120);
+        text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    33% {
+        color: rgba(120, 0, 50, .5);
+        text-shadow: none;
+    }
+    37% {
+        color: rgb(230, 0, 120);
+        text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    39% {
+        color: rgba(120, 0, 50, .5);
+        text-shadow: none;
+    }
+    43% {
+        color: rgb(230, 0, 120);
+        text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    46% {
+        color: rgba(120, 0, 50, .5);
+        text-shadow: none;
+    }
+    47% {
+        color: rgb(230, 0, 120);
+        text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    100% {
+        color: rgb(230, 0, 120);
+        text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+}
+
+@keyframes text-flicker {
+    2% {
+        color: rgb(8, 217, 38);
+        text-shadow: 0 0 15px rgb(8, 217, 38);
+    }
+    3% {
+        color: rgb(0, 120, 28);
+        text-shadow: none;
+    }
+    6% {
+        color: rgb(8, 217, 38);
+        text-shadow: 0 0 15px rgb(8, 217, 38);
+    }
+    9% {
+        color: rgb(0, 120, 28);
+        text-shadow: none;
+    }
+    11% {
+        color: rgb(8, 217, 38);
+        text-shadow: 0 0 15px rgb(8, 217, 38);
+    }
+    14% {
+        color: rgb(0, 120, 28);
+        text-shadow: none;
+    }
+    18% {
+        color: rgb(8, 217, 38);
+        text-shadow: 0 0 15px rgb(8, 217, 38);
+    }
+    32% {
+        color: rgb(8, 217, 38);
+        text-shadow: 0 0 15px rgb(8, 217, 38);
+    }
+    33% {
+        color: rgb(0, 120, 28);
+        text-shadow: none;
+    }
+    37% {
+        color: rgb(8, 217, 38);
+        text-shadow: 0 0 15px rgb(8, 217, 38);
+    }
+    39% {
+        color: rgb(0, 120, 28);
+        text-shadow: none;
+    }
+    43% {
+        color: rgb(8, 217, 38);
+        text-shadow: 0 0 15px rgb(8, 217, 38);
+    }
+    46% {
+        color: rgb(0, 120, 28);
+        text-shadow: none;
+    }
+    47% {
+        color: rgb(8, 217, 38);
+        text-shadow: 0 0 15px rgb(8, 217, 38);
+    }
+    100% {
+        color: rgb(8, 217, 38);
+        text-shadow: 0 0 15px rgb(8, 217, 38);
+    }
+}
+
+@keyframes border-flicker {
+    2% {
+        border: 3px solid rgb(0, 180, 230);
+        box-shadow: 0 0 15px -1px rgb(0, 180, 230),
+        0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    3% {
+        border: 3px solid rgb(0, 40, 70);
+        box-shadow: none;
+    }
+    5% {
+        border: 3px solid rgb(0, 180, 230);
+        box-shadow: 0 0 15px -1px rgb(0, 180, 230),
+        0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    6% {
+        border: 3px solid rgb(0, 40, 70);
+        box-shadow: none;
+    }
+    7% {
+        border: 3px solid rgb(0, 180, 230);
+        box-shadow: 0 0 15px -1px rgb(0, 180, 230),
+        0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    9% {
+        border: 3px solid rgb(0, 40, 70);
+        box-shadow: none;
+    }
+    13% {
+        border: 3px solid rgb(0, 180, 230);
+        box-shadow: 0 0 15px -1px rgb(0, 180, 230),
+        0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    16% {
+        border: 3px solid rgb(0, 40, 70);
+        box-shadow: none;
+    }
+    18% {
+        border: 3px solid rgb(0, 180, 230);
+        box-shadow: 0 0 15px -1px rgb(0, 180, 230),
+        0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    22% {
+        border: 3px solid rgb(0, 40, 70);
+        box-shadow: none;
+    }
+    34% {
+        border: 3px solid rgb(0, 180, 230);
+        box-shadow: 0 0 15px -1px rgb(0, 180, 230),
+        0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    36% {
+        border: 3px solid rgb(0, 40, 70);
+        box-shadow: none;
+    }
+    54% {
+        border: 3px solid rgb(0, 180, 230);
+        box-shadow: 0 0 15px -1px rgb(0, 180, 230),
+        0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    100% {
+        border: 3px solid rgb(0, 180, 230);
+        box-shadow: 0 0 15px -1px rgb(0, 180, 230),
+        0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+}
+
+@font-face {
+    font-family: Fallout;
+    src: url("../fonts/Overseer.otf") format("opentype");
+}
+
+

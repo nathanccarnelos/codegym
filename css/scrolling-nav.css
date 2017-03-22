@@ -5,7 +5,6 @@ of those sections to manage the look and feel of the site. */
 
 /* type write blink */
 .typed-cursor{
-    display: block;
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
@@ -34,7 +33,7 @@ of those sections to manage the look and feel of the site. */
     color: #fff;
     font-size: 80px;
     text-align: center;
-    text-shadow: 0px 3px #c5c5c5;
+    text-shadow: 0 3px #c5c5c5;
 }
 .subtitle{
     font-family: 'Kanit', sans-serif;
@@ -43,6 +42,32 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
 
 }
+#links-uteis,
+#navbar-menu > li:nth-child(5) > a#links-uteis{
+    border: 3px solid rgb(0, 180, 230);
+    box-shadow: 0 0 15px -1px rgb(0, 180, 230),
+    0 0 12px -1px rgb(0, 180, 230) inset;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: rgb(0, 180, 230);
+    text-shadow: 0 0 15px rgb(0, 180, 230);
+}
+
+#navbar-menu > li:nth-child(5) > a#links-uteis:hover,
+#navbar-menu > li:nth-child(5) > a#links-uteis:focus,
+#navbar-menu > li:nth-child(5) > a#links-uteis:active{
+    border: 3px solid rgb(0, 180, 230);
+    box-shadow: 0 0 25px -1px rgb(0, 180, 230),
+    0 0 25px -1px rgb(0, 180, 230) inset;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: rgb(0, 180, 230);
+    text-shadow: 0 0 15px rgb(0, 180, 230);
+}
+
+
 .section-title{
     font-size: 50px;
     padding-bottom: 50px;

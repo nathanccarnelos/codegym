@@ -33,7 +33,6 @@
         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
         ga('create', 'UA-92313983-1', 'auto');
         ga('send', 'pageview');
-        ga('send', 'event', )
     </script>
     <script async src='https://www.google-analytics.com/analytics.js'></script>
     <!-- end analytics -->
@@ -60,19 +59,21 @@
                 <ul id="navbar-menu" class="nav navbar-nav navbar-right">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
+                        <a class="page-scroll" href="#page-top" onclick="ga('send', 'event', 'Top-button', 'click', 'Top')"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">Objetivos</a>
+                        <a class="page-scroll" href="#about" onclick="ga('send', 'event', 'About-button', 'click', 'About')">Objetivos</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Instrutores</a>
+                        <a class="page-scroll" href="#services" onclick="ga('send', 'event', 'Services-button', 'click', 'Services')">Instrutores</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Sobre</a>
+                        <a class="page-scroll" href="#contact" onclick="ga('send', 'event', 'button', 'click', 'contact')">Sobre</a>
                     </li>
                     <li>
-                        <a id="links-uteis" href="./links-uteis/links-uteis.html">Links úteis</a>
+                        <a id="links-uteis" href="./links-uteis/links-uteis.html" onclick="ga('send', 'event', 'button', 'click', 'Links-uteis')">
+                            Links úteis
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -104,7 +105,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <a class="btn btn-warning btn-lg page-scroll title" href="#"
-                    onclick="_ga('send', 'event', 'button', 'click', 'teste')">
+                    onclick="ga('send', 'event', 'button', 'click', 'button1')">
                         Inscreva-se
                     </a>
                 </div>

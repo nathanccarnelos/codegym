@@ -82,8 +82,7 @@ of those sections to manage the look and feel of the site. */
     border: none;
     border-bottom: 5px solid #d58512 ;
 }
-
-
+a{}
 .btn-warning:hover{
     transition: linear 0.1s;
 }
